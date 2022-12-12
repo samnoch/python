@@ -15,6 +15,6 @@ def clockangle(hour, minutes):
         exit()
 
 print("Give a time in hh:mm format in 24 hour notation")
-Hour=int(input("Hour: "))
-Minutes=int(input("Minutes: "))
+Hour=int(input("Time in Hours: "))
+Minutes=int(input("The number of Minutes: "))
 print("The difference between the hour and the minute hand is",format(clockangle(Hour, Minutes),'.2f'),"degrees")
